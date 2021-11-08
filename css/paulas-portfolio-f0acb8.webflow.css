@@ -452,6 +452,12 @@ figure {
   text-align: center;
 }
 
+.div-block-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+
 .date {
   font-family: 'Universltstd cn', sans-serif;
   font-size: 20px;
@@ -616,6 +622,32 @@ figure {
   background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
+}
+
+.column-12 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.subtitle-4 {
+  font-size: 25px;
+}
+
+.html-embed-2 {
+  font-style: normal;
+  text-align: left;
+}
+
+.video {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -892,12 +924,74 @@ figure {
     text-align: left;
   }
 
+  .column-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .div-block-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .div-block-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .image-5 {
     margin-bottom: 140px;
   }
 
   .div-block-12 {
     margin-bottom: 100px;
+  }
+
+  .column-12 {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .image-21 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 }
 
