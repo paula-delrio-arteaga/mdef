@@ -56,6 +56,7 @@ figure {
   line-height: 24px;
   font-style: normal;
   font-weight: 300;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -292,8 +293,8 @@ figure {
 .blog-box-2 {
   display: block;
   max-width: 1000px;
-  margin-top: 40px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .container-3 {
@@ -344,11 +345,14 @@ figure {
   text-align: center;
 }
 
-.paragraph-5 {
+.detail-pic {
+  margin-top: 5px;
+  padding-top: 0px;
   font-family: Roboto, sans-serif;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 11px;
+  line-height: 15px;
   font-weight: 300;
+  text-align: center;
 }
 
 .title-2 {
@@ -406,7 +410,7 @@ figure {
 
 .div-block-4 {
   margin-top: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .div-block-5 {
@@ -418,11 +422,15 @@ figure {
 }
 
 .link-2 {
-  color: #0f0f0f;
+  color: #000;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .columns-6 {
   margin-top: 60px;
+  text-align: center;
 }
 
 .column-10 {
@@ -449,7 +457,7 @@ figure {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .div-block-12 {
@@ -599,6 +607,11 @@ figure {
 
 .div-block-18 {
   margin-bottom: 10px;
+  text-align: left;
+}
+
+.div-home-subtitle {
+  text-decoration: none;
 }
 
 .link-block-5 {
@@ -650,6 +663,78 @@ figure {
   margin-bottom: 20px;
 }
 
+.columns-7 {
+  margin: 20px 0px;
+}
+
+.div-block-19 {
+  margin-top: 10px;
+}
+
+.div-block-20 {
+  text-align: left;
+}
+
+.div-block-21 {
+  text-align: left;
+}
+
+.div-block-22 {
+  text-align: left;
+}
+
+.link-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/mac-boock-dismanteled.gif');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-decoration: none;
+}
+
+.grid-3 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.link-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/da03ab655811df5366c944b160a2fb64.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1440px) {
   .section {
     overflow: hidden;
@@ -657,7 +742,7 @@ figure {
 
   .paragraph {
     margin-bottom: 25px;
-    padding-top: 25px;
+    padding-top: 0px;
     padding-left: 0px;
     font-size: 18px;
     line-height: 26px;
@@ -722,6 +807,7 @@ figure {
 
   .nav-link {
     padding-top: 20px;
+    padding-left: 50px;
     font-family: 'DM Serif Display', sans-serif;
     font-size: 25px;
   }
@@ -836,7 +922,7 @@ figure {
     text-align: center;
   }
 
-  .paragraph-5 {
+  .detail-pic {
     padding-right: 20px;
     padding-left: 0px;
   }
@@ -901,6 +987,11 @@ figure {
 
   .blog-box {
     max-width: 1300px;
+  }
+
+  .div-block-4 {
+    margin-top: 0px;
+    text-align: left;
   }
 
   .columns-5 {
