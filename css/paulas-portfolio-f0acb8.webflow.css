@@ -52,6 +52,8 @@ figure {
 
 .paragraph {
   margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -469,9 +471,10 @@ figure {
 
 .date {
   font-family: 'Universltstd cn', sans-serif;
+  color: #615f5f;
   font-size: 20px;
   font-weight: 400;
-  text-align: right;
+  text-align: center;
 }
 
 .div-block-13 {
@@ -780,13 +783,57 @@ figure {
   justify-content: space-between;
 }
 
+.title-link {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 20px;
+  border: 2px none #000;
+  border-radius: 20px;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+}
+
+.link-3 {
+  border-style: none;
+  border-width: 1px;
+  border-color: #d14747;
+  color: #000;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.div-block-26 {
+  margin-bottom: 10px;
+}
+
+.div-block-27 {
+  margin-top: 0px;
+}
+
+.column-15 {
+  padding-right: 10px;
+}
+
+.column-16 {
+  padding-left: 0px;
+}
+
+.column-17 {
+  padding-top: 0px;
+}
+
 @media screen and (min-width: 1440px) {
   .section {
     overflow: hidden;
   }
 
   .paragraph {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-top: 0px;
     padding-left: 0px;
     font-size: 18px;
@@ -886,7 +933,7 @@ figure {
   .blog-box-2 {
     overflow: visible;
     max-width: 1150px;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
@@ -1061,6 +1108,10 @@ figure {
     text-align: left;
   }
 
+  .columns-6 {
+    margin-bottom: 0px;
+  }
+
   .column-10 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1104,7 +1155,7 @@ figure {
   }
 
   .div-block-12 {
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 
   .column-12 {
@@ -1287,6 +1338,43 @@ figure {
 
   .div-block-25 {
     text-align: left;
+  }
+
+  .title-link {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 0px;
+    font-size: 25px;
+  }
+
+  .div-block-26 {
+    margin-bottom: 0px;
+  }
+
+  .div-block-27 {
+    margin-top: 10px;
+  }
+
+  .image-22 {
+    margin-top: 20px;
+  }
+
+  .paragraph-3 {
+    text-align: center;
+  }
+
+  .column-15 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .div-block-28 {
+    padding-bottom: 0px;
+  }
+
+  .image-23 {
+    display: block;
+    width: 100%;
   }
 }
 
