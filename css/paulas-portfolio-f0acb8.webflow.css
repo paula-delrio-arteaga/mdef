@@ -96,12 +96,15 @@ figure {
 }
 
 .heading-3 {
+  margin-bottom: 20px;
   font-family: 'DM Serif Display', sans-serif;
   font-size: 50px;
+  line-height: 50px;
   font-weight: 400;
 }
 
 .paragraph-2 {
+  padding-right: 20px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 26px;
@@ -790,7 +793,7 @@ figure {
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 0px 20px;
+  padding: 0px 20px 10px;
   border: 2px none #000;
   border-radius: 20px;
   background-color: transparent;
@@ -894,6 +897,42 @@ figure {
   text-decoration: none;
 }
 
+.link-5 {
+  border: 1px solid transparent;
+  color: #333;
+  text-decoration: none;
+}
+
+.div-block-31 {
+  margin-top: 0px;
+}
+
+.image-24 {
+  margin-top: 10px;
+}
+
+.link-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/mapping--food-angriculture.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1440px) {
   .section {
     overflow: hidden;
@@ -909,8 +948,8 @@ figure {
 
   .paragraph-2 {
     margin-top: 40px;
-    padding-right: 220px;
-    padding-left: 220px;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 22px;
     line-height: 30px;
   }
@@ -1522,6 +1561,7 @@ figure {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 111px;
   }
 
   .div-block-6 {
