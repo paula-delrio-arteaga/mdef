@@ -699,7 +699,7 @@ figure {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 500px;
+  height: 450px;
   margin-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1010,6 +1010,44 @@ figure {
 }
 
 .italic-text {
+  text-decoration: none;
+}
+
+.link-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.link-block-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   text-decoration: none;
 }
 
