@@ -102,6 +102,10 @@ figure {
   text-decoration: underline;
 }
 
+.heading-link.link-body {
+  text-decoration: none;
+}
+
 .paragraph-2 {
   padding-right: 20px;
   font-family: Roboto, sans-serif;
@@ -1130,6 +1134,9 @@ figure {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  background-image: url('../images/circles2.png');
+  background-position: 50% 50%;
+  background-size: cover;
   text-decoration: none;
 }
 
@@ -1493,6 +1500,112 @@ figure {
 
 .column-23 {
   padding-top: 0px;
+}
+
+.link-block-f-1-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/circles2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-1-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/circles3.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-1-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/circles4.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-1-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/circles5.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-8 {
+  color: #141313;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.quote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2488,6 +2601,22 @@ figure {
   .imagecustome {
     width: 275px;
     padding-top: 10px;
+  }
+
+  .link-block-f-1-2 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-1-3 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-1-4 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-1-5 {
+    margin-top: 20px;
   }
 }
 
