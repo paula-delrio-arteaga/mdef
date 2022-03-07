@@ -774,7 +774,7 @@ figure {
   border-style: none;
   border-width: 1px;
   border-color: #d14747;
-  color: #000;
+  color: #333;
   font-size: 25px;
   text-decoration: none;
 }
@@ -1077,15 +1077,15 @@ figure {
 
 .link-body {
   background-color: transparent;
-  color: #000;
-  font-weight: 300;
+  color: #333;
+  font-weight: 400;
   text-decoration: underline;
 }
 
 .link-body:hover {
   padding-right: 5px;
   padding-left: 5px;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   font-weight: 300;
   text-decoration: underline;
@@ -1135,7 +1135,7 @@ figure {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/circles2.png');
+  background-image: url('../images/5.png');
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
@@ -1174,8 +1174,9 @@ figure {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border-top: 2px none #000;
-  border-bottom: 4px solid #000;
+  border-style: none none solid;
+  border-width: 1px 1px 5px;
+  border-color: #333;
   border-radius: 0px;
   text-decoration: none;
 }
@@ -1542,7 +1543,7 @@ figure {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/circles3.png');
+  background-image: url('../images/3.png');
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
@@ -1564,7 +1565,7 @@ figure {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/circles4.png');
+  background-image: url('../images/4.png');
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
@@ -1586,7 +1587,7 @@ figure {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  background-image: url('../images/circles5.png');
+  background-image: url('../images/4-challenge.png');
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
@@ -1608,6 +1609,136 @@ figure {
   font-style: italic;
   font-weight: 300;
   text-align: center;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+
+.bold-text-2 {
+  font-weight: 400;
+}
+
+.bold-text-3 {
+  font-weight: 400;
+}
+
+.bold-text-4 {
+  font-weight: 400;
+}
+
+.bold-text-5 {
+  font-weight: 400;
+}
+
+.link-block-f-2-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/6.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-2-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/7.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-2-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/8.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-2-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/9.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.link-block-f-2-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-image: url('../images/10-challenge.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2652,6 +2783,26 @@ figure {
   }
 
   .link-block-f-1-5 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-2-3 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-2-4 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-2-5 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-2-6 {
+    margin-top: 20px;
+  }
+
+  .link-block-f-2-7 {
     margin-top: 20px;
   }
 }
